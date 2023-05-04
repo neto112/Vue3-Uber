@@ -2,9 +2,9 @@
   <div id="Directions">
     <div class="grid grid-cols-12 mt-4 shadow-md">
       <div class="col-span-2 mx-auto">
-        <div @click="router.push('/')">
-          <ArrowLeftIcon :size="35" />
-        </div>
+        <!-- <div @click="router.push('/')"> -->
+        <ArrowLeftIcon :size="35" />
+        <!-- </div> -->
 
         <div class="h-16 mt-4 w-full">
           <div :class="[isPickupActive ? 'circle-black' : 'circle-gray']" />
